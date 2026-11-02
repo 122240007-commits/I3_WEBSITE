@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Arsha Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Updated: Feb 22 2025 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">PT Sampharindo Perdana</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Product Catalog</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>PT Sampharindo Perdana</h1>
+            <p>"Membangun Kesehatan Indonesia Bersama Sampharindo Group"</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="https://youtu.be/IlErZYFdq2g?si=9Tf2KdejWnftKdks" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/perdana.webp" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/spt.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/BMP.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/HKM.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/MM.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/MS.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/RNA.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/SDM.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/TGSN.jpg" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              PT. Sampharindo perdana pertama kali didirikan pada tanggal 28 Mei tahun 1974, yang awalnya dikenal dengan nama PT.Corolla, kemudian di tahun 1983 berubah nama menjadi PT.Sekar Mirah Laboratories. Kemudian pada tanggal 17 November 1988 dimulailah pembangunan area fasilitas produksi di JL.Tambak Aji Timur I No.1 Semarang Indonesia. Produksi pertama dari PT. Sampharindo Perdana di keluarkan di bulan Mei 1992, kemudian dilanjutkan pembangunan fasilitas betalaktam dan dimulai produksi pada bulan April 1996. Dan untuk mengantisipasi meningktanya pertumbuhan bisnis industri farmasi yang cukup pesat di Indonesia, pada tahun 1998 perusahaan yang berubah menjadi PT. Sampharindo Perdana meluncurkan beberapa produk ke pasar Indonesia.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Fasilitas Produksi Modern</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Jangkauan Global dan Nasional</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Karir & Pertumbuhan Bersama</span></li>
+            </ul>
+          </div>
+ <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/icon.ico" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+
+    
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><strong>Visi & Misi PT Sampharindo Perdana</strong></h3>
+              <p>
+                Visi dan misi menjadi landasan PT Sampharindo Perdana dalam bekerja, bertumbuh, dan memberikan manfaat bagi seluruh pemangku kepentingan
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+
+                <h3><span>01.</span> Visi</h3>
+                <div class="faq-content">
+                  <p>Terwujudnya sebagai industri farmasi nasional yang berperan aktif dan 
+berkemampuan dalam pembangunan kesehatan bangsa.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>02</span> Misi</h3>
+                <div class="faq-content">
+                  <p>Menyediakan obat bermutu secara nasional sesuai kebutuhan dan pola 
+penyakit masyarakat dengan harga yang terjangkau.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>03</span> Komitmen Mutu</h3>
+                <div class="faq-content">
+                  <p>Seluruh proses produksi dijalankan sesuai standar Cara Pembuatan Obat yang Baik (CPOB) untuk memastikan produk aman, bermutu, dan berkhasiat.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/sp.webp" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="assets/img/illustration/orang lab.webp" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+            <h3>Komitmen Kami terhadap Mutu dan Keamanan Produk</h3>
+            <p class="fst-italic">
+             PT Sampharindo Perdana menjaga kualitas di setiap tahap, mulai dari pemilihan bahan baku, proses produksi, hingga distribusi, agar produk yang sampai ke masyarakat aman dan bermutu.
+            </p>
+
+            <div class="skills-content skills-animation">
+
+              <div class="progress">
+                <span class="skill"><span>Kepatuhan Standar CPOB</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Pengendalian Mutu Produk</span> <i class="val">96%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Ketepatan Distribusi</span> <i class="val">95%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Kepuasan Mitra dan Pelanggan</span> <i class="val">95%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Layanan Kami</h2>
+        <p>Menghadirkan produk dan layanan farmasi yang bermutu untuk mendukung kesehatan masyarakat Indonesia.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">Produksi Obat</a></h4>
+              <p>Memproduksi sediaan farmasi sesuai standar CPOB dengan pengawasan mutu yang ketat di setiap tahap.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">Distribusi Farmasi	</a></h4>
+              <p>Mendistribusikan produk secara tepat waktu dan aman ke apotek, rumah sakit, dan mitra di seluruh Indonesia.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">Riset dan Pengembangan</a></h4>
+              <p>Mengembangkan formulasi dan produk baru untuk menjawab kebutuhan kesehatan masyarakat.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link">Layanan Pelanggan</a></h4>
+              <p>Melayani informasi produk, pemesanan, dan kerja sama dengan mitra secara responsif.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Work Process Section -->
+    <section id="work-process" class="work-process section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Jaringan Cabang Kami</h2>
+        <p>Kehadiran cabang PT Sampharindo Perdana di berbagai wilayah memastikan produk farmasi kami tersedia dan terdistribusi dengan cepat kepada mitra dan masyarakat.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="assets/img/steps/sp.webp" alt="Step 1" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">01</div>
+                <h3>Sampharindo Perdana</h3>
+                <p>Entitas utama yang terus berinovasi memproduksi berbagai produk farmasi berkualitas tinggi.</p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Jl. Tambak Aji Raya No.9, Tambakaji, Kec. Ngaliyan, Kota Semarang, Jawa Tengah 50185</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Produksi Obat</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Pengendalian Mutu</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Steps Item -->
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="assets/img/steps/spt.webp" alt="Step 2" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">02</div>
+                <h3>Sampharindo Putra Trading</h3>
+                <p>Didirikan pada tahun 2015 sebagai distributor tunggal produk-produk andalan dari Sampharindo Group.</p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Jl. Tambak Aji I No.15, Tambakaji, Kec. Ngaliyan, Kota Semarang, Jawa Tengah 50185</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Kemitraan Apotek dan Rumah Sakit</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Distribusi Produk</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Steps Item -->
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="assets/img/steps/logo_sri.png" alt="Step 3" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">03</div>
+                <h3>Sampharindo Retroviral Indonesia</h3>
+                <p>Beroperasi secara global sejak 2018, berkolaborasi khusus dalam memproduksi obat retroviral kritis.</p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Jl. Tambak Aji Timur V No.50, Semarang</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Kolaborasi Global</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Standar Mutu Internasional</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Steps Item -->
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Work Process Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/bg/bg-8.webp" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Mari Bermitra dengan Kami</h3>
+            <p>Kami terbuka untuk kerja sama distribusi, kemitraan bisnis, dan kolaborasi di bidang farmasi. Hubungi kami untuk mendiskusikan peluang yang bisa kita wujudkan bersama.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Hubungi Kami</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Produk Kami</h2>
+        <p>Produk farmasi berkualitas dari PT Sampharindo Perdana untuk mendukung kesehatan masyarakat Indonesia.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Tablet & Kaplet</li>
+            <li data-filter=".filter-product">Sirup & Suspensi Cair</li>
+            <li data-filter=".filter-branding">Topikal (Krim / Salep)</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/produk kapsul 1.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Berovit-CE</h4>
+                <p>Beta Karoten, Vitamin C, Vitamin E</p>
+                <a href="assets/img/portfolio/produk kapsul 1.webp" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/produksirup 1.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Bionick Mild</h4>
+                <p>Mengandung metabolisme pada masa pertunbuhan</p>
+                <a href="assets/img/portfolio/produksirup 1.webp" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/produkkrim 1.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Valbeson-N</h4>
+                <p>Pengobatan infeksi bakteri sekunder</p>
+                <a href="assets/img/portfolio/produkkrim 1.webp" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/produk kaplet 2.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>BioNicom-C</h4>
+                <p>Vitamin B kompleks,vitamin C,Niacinamide dan Calcium pantothenante yang penting untuk memelihara kesehatan</p>
+                <a href="assets/img/portfolio/produk kaplet 2.webp" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/produksirup 2.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Vitabiol</h4>
+                <p>Membantu memenuhi kebutuhan vitamin pada anak-anak</p>
+                <a href="assets/img/portfolio/produksirup 2.webp" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/produkkrim 2.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Miracort</h4>
+                <p>Inflamasi non-infeksi pada kulit</p>
+                <a href="assets/img/portfolio/produkkrim 2.webp" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/produk tablet 3.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>BioNicom ZinC</h4>
+                <p>Membantu memenuhi kebutuhan vitamin B,C dan E serta mineral zinc</p>
+                <a href="assets/img/portfolio/produk tablet 3.webp" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/produksirup 3.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Alerzin</h4>
+                <p>Mengobati perennial rhintis, alergi rhintis dan urtikaria idiopatik kronis.</p>
+                <a href="assets/img/portfolio/produksirup 3.webp" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/produkkrim 3.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Mikazol</h4>
+                <p>Mengobati infeksi kulit yang disebabkan oleh dermatofit atau ragi</p>
+                <a href="assets/img/portfolio/produkkrim 3.webp" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Struktur Organisasi</h2>
+        <p>Berikut merupakan struktur organisasi PT Sampharindo Perdana</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-7.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Tan Harry Tjandra</h4>
+                <span>Direktur Utama</span>
+                <p>Memimpin dan mengendalikan seluruh kegiatan perusahaan serta menetapkan kebijakan dan strategi untuk mencapai tujuan perusahaan.</p>
+               </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-12.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Agung Sutisahjo</h4>
+                <span>Direktur Operasional</span>
+                <p>Mengelola dan mengawasi kegiatan operasional perusahaan, termasuk produksi, pengawasan mutu, pemastian mutu, teknik, dan rantai pasok.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-6.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Rizal Rofida</h4>
+                <span>Sistem Mutu (QS)</span>
+                <p>Mengelola dokumentasi mutu dan memastikan penerapan sistem kualitas sesuai dengan standar yang berlaku.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-f-4.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Arina Putri Utami</h4>
+                <span>Farmakovigilans</span>
+                <p>Memantau dan mengevaluasi keamanan produk obat melalui pengumpulan serta analisis laporan efek samping obat.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+         <section id="team" class="team section"></section>
+<div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-13.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ramadhan R</h4>
+                <span>Kepala Divisi Supply Chain</span>
+                <p>Mengelola aliran bahan baku, bahan kemas, dan produk jadi untuk mendukung kelancaran kegiatan perusahaan.</p>
+               </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-6.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Onang Andrian</h4>
+                <span>Asisten Manajer PPIC</span>
+                <p>Menyusun perencanaan produksi dan mengendalikan persediaan agar kebutuhan produksi dapat terpenuhi sesuai jadwal.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-9.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Rudika Kusuma W</h4>
+                <span>Asisten Manajer Logistik</span>
+                <p>Mengelola kegiatan pergudangan, pengendalian persediaan, dan pergerakan barang di lingkungan perusahaan.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-f-7.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Yuni Isnawati</h4>
+                <span>Supervisor Penerimaan</span>
+                <p>Mengawasi penerimaan bahan baku dan bahan kemas serta memastikan kesesuaiannya dengan dokumen dan spesifikasi.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+ <section id="team" class="team section"></section>
+<div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-13.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ari Prayitno</h4>
+                <span>Supervisor Logistik Gudang 1</span>
+                <p>Mengelola penyimpanan barang di Gudang 1 serta memastikan penempatan dan ketersediaan stok sesuai prosedur.</p>
+               </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-6.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dodi Listyowati</h4>
+                <span>Supervisor Logistik Gudang 2</span>
+                <p>Mengawasi kegiatan penyimpanan dan distribusi internal barang di Gudang 2 agar tetap tertata dan mudah ditelusuri.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-9.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ertani WM</h4>
+                <span>Manajer Pemastian Mutu (QA)</span>
+                <p>Memastikan seluruh proses perusahaan memenuhi standar mutu dan ketentuan Cara Pembuatan Obat yang Baik (CPOB).</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-f-5.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Meylani Putri Asmara</h4>
+                <span>Asisten Manajer Registrasi</span>
+                <p>Mengelola dokumen registrasi produk dan proses pengajuan izin edar sesuai ketentuan yang berlaku.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+        </div>
+        <section id="team" class="team section"></section>
+<div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-f-4.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Arina Putri Utami</h4>
+                <span>Asisten Manajer QA Operasional</span>
+                <p>Mengawasi pelaksanaan proses produksi dan memverifikasi dokumentasi agar sesuai dengan prosedur dan standar mutu.</p>
+               </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-6.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sitirowan</h4>
+                <span>Asisten Manajer QA Compliance</span>
+                <p>Melaksanakan audit internal dan mengevaluasi sistem mutu untuk memastikan kepatuhan terhadap regulasi yang berlaku.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-9.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Aditya Wibawa</h4>
+                <span>Manajer Pengembangan Produk dan R&D</span>
+                <p>Mengelola kegiatan penelitian dan pengembangan produk, termasuk pengembangan formula dan pengujian produk.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-7.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>M. Arif Rizki</h4>
+                <span>Asisten Manajer Pengembangan Formulasi</span>
+                <p>MMengembangkan formula produk dengan menentukan komposisi bahan aktif dan bahan tambahan yang sesuai.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+         <section id="team" class="team section"></section>
+<div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-f-9.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Felicia Inesa</h4>
+                <span>Asisten Manajer Pengembangan Analisis</span>
+                <p>Mengembangkan metode analisis serta melaksanakan pengujian stabilitas dan validasi metode analisis produk.</p>
+               </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-f-8.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Amelia Hanna F</h4>
+                <span>Scientific Service</span>
+                <p>Menyediakan informasi ilmiah mengenai produk untuk mendukung edukasi medis dan penyampaian informasi produk.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-f-7.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sumarni</h4>
+                <span>Manajer Pengawasan Mutu (QC)</span>
+                <p>Mengelola pengujian bahan baku, produk antara, dan produk jadi untuk memastikan kesesuaian terhadap standar mutu.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-6.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Reza Ariyanto</h4>
+                <span>Asisten Manajer Pengembangan Kemasan</span>
+                <p>Mengembangkan spesifikasi kemasan dan melakukan pengujian kompatibilitas untuk menjaga keamanan serta kestabilan produk.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+           <section id="team" class="team section"></section>
+<div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-13.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Adit Putra</h4>
+                <span>Asisten Manajer Pengawasan Mutu</span>
+                <p>Mengawasi kegiatan pengujian laboratorium dan memastikan peralatan pengujian berada dalam kondisi terkalibrasi.</p>
+               </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-7.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dewaka Aji</h4>
+                <span>Supervisor In-Process Control (IPC)</span>
+                <p>Mengendalikan kualitas produk selama proses produksi melalui pemeriksaan parameter dan kesesuaian proses.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-9.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Rayindra Maulana</h4>
+                <span>Supervisor Analisis</span>
+                <p>Mengawasi kegiatan pengujian kimia dan mikrobiologi untuk memastikan hasil analisis akurat dan sesuai metode.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-6.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Nizar Fuadi</h4>
+                <span>Kepala Divisi Operasional</span>
+                <p>Mengoordinasikan kegiatan operasional antarbagian agar seluruh aktivitas perusahaan berjalan sesuai target dan prosedur.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+          <section id="team" class="team section"></section>
+<div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-13.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Aji Pamungkas</h4>
+                <span>Asisten Manajer Produksi</span>
+                <p>Mengawasi kegiatan produksi harian dan memastikan operator menjalankan pekerjaan sesuai prosedur operasional.</p>
+               </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-12.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Imam Rizal</h4>
+                <span>Supervisor BL</span>
+                <p>Mengawasi kegiatan produksi pada lini BL serta memastikan proses dan kinerja operator berjalan sesuai standar.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-9.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Slamet Rumpiadi</h4>
+                <span>Supervisor WBL</span>
+                <p>Mengendalikan kegiatan produksi pada lini WBL dan memantau pelaksanaan proses agar sesuai prosedur.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-6.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Nizar Fuadi</h4>
+                <span>Kepala Divisi Operasional</span>
+                <p>Mengoordinasikan kegiatan operasional antarbagian agar seluruh aktivitas perusahaan berjalan sesuai target dan prosedur.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+           <section id="team" class="team section"></section>
+<div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-13.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Catur Kuswanto</h4>
+                <span>Manajer Teknik</span>
+                <p>Mengelola pemeliharaan mesin, peralatan, dan fasilitas pendukung untuk menjaga kelancaran kegiatan operasional.</p>
+               </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-12.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Subko Sani Utomo</h4>
+                <span>Asisten Manajer Teknik</span>
+                <p>Melaksanakan dan mengoordinasikan pemeliharaan serta perbaikan mesin dan fasilitas pendukung produksi.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+      </div>
+
+    </section><!-- /Team Section -->
+
+    
+
+<!-- Pricing Section -->
+<section id="pricing" class="pricing section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Keunggulan</h2>
+    <p>Komitmen PT Sampharindo Perdana dalam mendukung kualitas produk farmasi</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <!-- Quality Assurance -->
+      <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="pricing-item">
+          <h3>Quality Assurance</h3>
+          <h4>QA</h4>
+          <ul>
+            <li><i class="bi bi-check"></i> <span>Penerapan sistem pemastian mutu</span></li>
+            <li><i class="bi bi-check"></i> <span>Pengawasan prosedur produksi</span></li>
+            <li><i class="bi bi-check"></i> <span>Pengendalian dokumentasi mutu</span></li>
+            <li><i class="bi bi-check"></i> <span>Evaluasi kepatuhan standar mutu</span></li>
+            <li><i class="bi bi-check"></i> <span>Pemantauan konsistensi proses</span></li>
+          </ul>
+          <a href="#" class="buy-btn">Selengkapnya</a>
+        </div>
+      </div>
+      <!-- End Pricing Item -->
+
+      <!-- Quality Control -->
+      <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="pricing-item featured">
+          <h3>Quality Control</h3>
+          <h4>QC</h4>
+          <ul>
+            <li><i class="bi bi-check"></i> <span>Pemeriksaan bahan baku</span></li>
+            <li><i class="bi bi-check"></i> <span>Pengawasan selama proses produksi</span></li>
+            <li><i class="bi bi-check"></i> <span>Pengujian produk jadi</span></li>
+            <li><i class="bi bi-check"></i> <span>Analisis kesesuaian spesifikasi produk</span></li>
+            <li><i class="bi bi-check"></i> <span>Evaluasi hasil pengujian mutu</span></li>
+          </ul>
+          <a href="#" class="buy-btn">Selengkapnya</a>
+        </div>
+      </div>
+      <!-- End Pricing Item -->
+
+      <!-- Research and Development -->
+      <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="pricing-item">
+          <h3>Research & Development</h3>
+          <h4>R&D</h4>
+          <ul>
+            <li><i class="bi bi-check"></i> <span>Penelitian dan pengembangan produk</span></li>
+            <li><i class="bi bi-check"></i> <span>Pengembangan formulasi produk</span></li>
+            <li><i class="bi bi-check"></i> <span>Pengembangan metode analisis</span></li>
+            <li><i class="bi bi-check"></i> <span>Pengujian dan evaluasi produk</span></li>
+            <li><i class="bi bi-check"></i> <span>Peningkatan kualitas produk</span></li>
+          </ul>
+          <a href="#" class="buy-btn">Selengkapnya</a>
+        </div>
+      </div>
+      <!-- End Pricing Item -->
+
+    </div>
+
+  </div>
+
+</section>
+<!-- End Pricing Section -->
+
+
+
+    </section><!-- /Pricing Section -->
+
+        </section><!-- /Testimonials Section -->
+
+    <!-- Faq 2 Section -->
+    <section id="faq-2" class="faq-2 section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Butuh Informasi tambahan?</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Apa produk PT Sampharindo?</h3>
+                <div class="faq-content">
+                  <p>PT Sampharindo Perdana menghasilkan berbagai produk farmasi, mulai dari obat generik, suplemen, hingga obat bermerek untuk berbagai kategori terapi</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Kapan Sampharindo di dirikan PT Sampharindo?</h3>
+                <div class="faq-content">
+                  <p>PT Sampharindo Perdana didirikan pada 28 Mei 1974 dengan nama awal PT Corolla</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>pt sampharindo perdana bergerak di bidang apa?</h3>
+                <div class="faq-content">
+                  <p>PT Sampharindo Perdana bergerak di bidang industri manufaktur farmasi</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Apa yang dimaksud dengan obat generik dan obat bermerek?</h3>
+                <div class="faq-content">
+                  <p>Obat generik menggunakan nama zat aktifnya, sedangkan obat bermerek dipasarkan dengan nama dagang tertentu. Keduanya tetap harus memenuhi persyaratan mutu, keamanan, dan khasiat./p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Apa fungsi PT Sampharindo Putra Trading?</h3>
+                <div class="faq-content">
+                  <p>Sebagai perusahaan distributor tunggal produk-produk PT Sampharindo Perdana yang membantu proses penyaluran obat ke pasar dan fasilitas kesehatan.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq 2 Section -->
+
+    <!-- Subscribe Section -->
+    <section id="subscribe" class="subscribe section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-between align-items-center">
+          <div class="col-lg-6">
+            <div class="cta-content" data-aos="fade-up" data-aos-delay="200">
+              <h2>Hubungi Kami</h2>
+              <p>Ingin mengetahui lebih lanjut mengenai PT Sampharindo Perdana dan produk-produk yang kami hasilkan? Silakan hubungi kami untuk memperoleh informasi lebih lanjut mengenai perusahaan, produk farmasi, maupun kegiatan operasional kami. Kami siap memberikan informasi yang Anda butuhkan.</p>
+              <form action="forms/newsletter.php" method="post" class="php-email-form cta-form" data-aos="fade-up" data-aos-delay="300">
+                <div class="input-group mb-3">
+                  <input type="email" class="form-control" placeholder="Email address..." aria-label="Email address" aria-describedby="button-subscribe">
+                  <button class="btn btn-primary" type="submit" id="button-subscribe">Subscribe</button>
+                </div>
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="cta-image" data-aos="zoom-out" data-aos-delay="200">
+              <img src="assets/img/cta/images.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Subscribe Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Silakan hubungi kami melalui informasi kontak yang tersedia untuk mendapatkan informasi lebih lanjut.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Jl. Tambak Aji Raya No.8, Tambakaji, Kec. Ngaliyan, Kota Semarang, Jawa Tengah 50185</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>(024) 8660461</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>perdana@sampharindo.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.204475021115!2d110.33849967475778!3d-6.991682293009371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708aa51e211125%3A0x604f3f53c4e1215!2sSampharindo%20Perdana%20(Office)%20Pt.%2C%20Tambakaji%2C%20Kec.%20Ngaliyan%2C%20Kota%20Semarang%2C%20Jawa%20Tengah!5e1!3m2!1sid!2sid!4v1793539251882!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Informasi dan Pembaruan Perusahaan</h4>
+            <p>Kunjungi website kami secara berkala untuk mengetahui berbagai informasi dan pembaruan terbaru!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+       
+<!-- Footer -->
+<footer id="footer" class="footer">
+
+  <div class="container footer-top">
+    <div class="row gy-4">
+
+      <!-- Company Information -->
+      <div class="col-lg-4 col-md-6 footer-about">
+        <a href="index.html" class="d-flex align-items-center">
+          <span class="sitename">PT Sampharindo Perdana</span>
+        </a>
+
+        <div class="footer-contact pt-3">
+          <p>Jl. Tambak Aji Raya No.8, Tambakaji, Kec. Ngaliyan</p>
+          <p>Kota Semarang, Jawa Tengah 50185</p>
+          <p class="mt-3"><strong>Telepon:</strong> <span>(024) 8660461</span></p>
+          <p><strong>Email:</strong> <span>perdana@sampharindo.com</span></p>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Tautan</h4>
+        <ul>
+          <li><i class="bi bi-chevron-right"></i> <a href="#hero">Beranda</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#about">Tentang Kami</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#services">Layanan</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+
+      <!-- Company Sections -->
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Informasi</h4>
+        <ul>
+          <li><i class="bi bi-chevron-right"></i> <a href="#pricing">Keunggulan</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#team">Struktur Organisasi</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Produk</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#recent-posts">Berita dan Kegiatan</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-lg-4 col-md-12">
+        <h4>Ikuti Kami</h4>
+        <p>
+          PT Sampharindo Perdana merupakan perusahaan farmasi
+          yang berkomitmen menghadirkan produk berkualitas melalui
+          proses produksi terstandar, pengawasan mutu, dan
+          pengembangan produk berkelanjutan.
+        </p>
+
+        <div class="social-links d-flex">
+          <a href="https://www.instagram.com/sampharindoperdana?dlrf=MTlxdW5scG5pc2hyZw=="
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Instagram PT Sampharindo Perdana">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">PT Sampharindo Perdana</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://www.instagram.com/fitrimawardn_?utm_source=qr&exln=a2kzZWRrNzFibno3">Fitri</a> & <a href="https://www.instagram.com/ikenlia_?cplk=MTU2emZlOTdyZ3g5eQ==">Ike</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
