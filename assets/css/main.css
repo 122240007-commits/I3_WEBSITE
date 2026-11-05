@@ -3672,3 +3672,7 @@ section,
 #scroll-top {
     display: none !important;
 }
+.footer .col-lg-4.col-md-12 p {
+    text-align: justify;
+    line-height: 1.6;
+}
