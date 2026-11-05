@@ -3594,3 +3594,81 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+.map-container {
+  width: 100%;
+  max-width: 450px;
+  margin-top: 20px;
+}
+
+.map-container iframe {
+  width: 100% !important;
+  height: 300px !important;
+  border: 0;
+  border-radius: 10px;
+  display: block;
+}
+.contact form button[type="submit"] {
+  background-color: #b0caee;
+  color: #ffffff;
+  border: 1px solid #b0caee;
+  padding: 12px 35px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* Efek ketika kursor diarahkan ke tombol */
+.contact form button[type="submit"]:hover {
+  background-color: #ffffff;
+  color: #8aaddb;
+  border: 1px solid #b0caee;
+}
+/* Memperkecil ukuran footer */
+.footer {
+  padding-bottom: 15px;
+  font-size: 13px;
+}
+
+.footer .footer-top {
+  padding-top: 25px;
+}
+
+.footer .footer-links {
+  margin-bottom: 10px;
+}
+
+.footer .footer-links ul li {
+  padding: 6px 0;
+}
+
+.footer h4 {
+  font-size: 15px;
+  padding-bottom: 8px;
+}
+
+.footer .footer-about a {
+  font-size: 22px;
+}
+/* Mengurangi jarak atas section Tentang Kami */
+#about {
+  padding-top: 25px;
+}
+
+/* Mengurangi jarak antara judul dan isi Tentang Kami */
+#about .section-title {
+  padding-bottom: 25px;
+}
+
+#about .section-title h2 {
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
+/* Merapikan paragraf Tentang Kami */
+#about .content p {
+  text-align: justify;
+  line-height: 1.7;
+}
+#scroll-top {
+    display: none !important;
+}
