@@ -3676,3 +3676,13 @@ section,
     text-align: justify;
     line-height: 1.6;
 }
+.team-member .member-info p {
+    text-align: justify !important;
+    text-align-last: left;
+    line-height: 1.7;
+    width: 100%;
+}
+.steps-item .steps-content p {
+    text-align: justify !important;
+    line-height: 1.7;
+}
